@@ -3,7 +3,7 @@ Android mock chat/messaging application that echos any message sent using Kotlin
 
 * This android application built using Kotlin echos twice any message sent to any user after a randomized delay up to 0.5 seconds. 
 * It consists of two acitivities:
-    - AllChatsActivity: views all the users with their profile icture, last message sent, and the timestamp of the latter.
+    - AllChatsActivity: views all the users with their profile picture, last message sent, and the timestamp of the latter.
     - SingleChatActivity: views all the messages sent and echoed by that specific user.
 * The messages sent are saved locally using Room.
 * Messages and users are sorted depending on the time of the last message sent.
